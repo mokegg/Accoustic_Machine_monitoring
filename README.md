@@ -57,7 +57,7 @@ Valves of a single model (6dB and ID_06) three clusters (KMeans)             |  
 :-------------------------:|:-------------------------:
 ![](valve_pics/clusters_valves_id06_3.png) |  ![](valve_pics/barplot_valve_Id06_6dB_3_2f.png)
 
-##Conclusion
+## Conclusion
 From what has been observed during limited investigation, it seems that clustering could help to detect anomalous sounds of faulty machines. However, there are a lot of overlaps between the clusters and more investigation with other algorithms. 
 
 ## Further Development
