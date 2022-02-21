@@ -44,18 +44,18 @@ Sound files are downloaded and preprocessed using the same codes developed durin
 ## Visualizations and Validation
 Evaluation the performance of the clustering algorithm was done by using the human-labels that are included in the original data. using barplots, the clusters are shown using expected Targets(labels). Some visuals are shown below.
 
-![Elbow method to estimate the range of the number of clusters](valve_pics/elbow.png)
+![Elbow method to estimate the range of the number of clusters](pics/elbow.png)
 
 
 Valves of a single model (6dB and ID_06) two clusters (KMeans)             |  Comparison with labeld data
 :-------------------------:|:-------------------------:
-![](valve_pics/clusters_valves_id06.png) |  ![](valve_pics/barplot_valve_Id06_6dB_2_2f.png)
+![](pics/clusters_valves_id06.png) |  ![](pics/barplot_valve_Id06_6dB_2_2f.png)
 
 
 
 Valves of a single model (6dB and ID_06) three clusters (KMeans)             |  Comparison with labeld data
 :-------------------------:|:-------------------------:
-![](valve_pics/clusters_valves_id06_3.png) |  ![](valve_pics/barplot_valve_Id06_6dB_3_2f.png)
+![](pics/clusters_valves_id06_3.png) |  ![](pics/barplot_valve_Id06_6dB_3_2f.png)
 
 ## Conclusion
 From what has been observed during limited investigation, it seems that clustering could help to detect anomalous sounds of faulty machines. However, there are a lot of overlaps between the clusters and more investigation with other algorithms. 
