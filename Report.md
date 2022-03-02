@@ -98,4 +98,4 @@ From what has been observed during limited investigation, it seems that clusteri
 
 ## Further Development
   * The audio features used for clustering are mfccs, same features used in supervised learning. An incomplete attempt was done to include other features to investigate the effects of using different features. Hopefully this will be implemented in the feature.
-  * Performance is evaluated only visualy.Performance metrics should be implemented
+  * Performance is evaluated only visualy. Performance metrics should be implemented
