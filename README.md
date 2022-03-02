@@ -1,7 +1,7 @@
 # Anomally detection of industrial machines (Clustering)
 
 ## Description
-This project is a second part of the is a part of the `Anomally detection of industrial machines` learning project at Becode.org AI Bootcamp programme. The goal of this particular project is to investigate the possible use of unsupervised learning based on clustering for anomalous sound detection of faulty industrial machinery for a fictional company Acme Corporation. The first project dealt with classification of labeled data and can be consulted [here](https://github.com/mokegg/machine-monitoring-conditions).
+This project is a second part of the `Anomally detection of industrial machines` learning project at Becode.org AI Bootcamp programme. The goal of this particular project is to investigate the possible use of unsupervised learning based on clustering for anomalous sound detection of faulty industrial machinery for a fictional company Acme Corporation. The first project dealt with classification of labeled data and can be consulted [here](https://github.com/mokegg/machine-monitoring-conditions).
 
 Data samples of normal and abnormal sounds of for kinds of machines, valves, pumps, fans and sliders are downloaded from [Machine Condition Monitoring](https://zenodo.org/record/3384388#.YbIcwZHMJH5).
 
