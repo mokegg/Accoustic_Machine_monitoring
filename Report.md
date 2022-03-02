@@ -93,9 +93,9 @@ Valves of a single model (6dB and ID_06) three clusters (KMeans)             |  
 :-------------------------:|:-------------------------:
 ![](pics/clusters_valves_id06_3.png) |  ![](pics/barplot_valve_Id06_6dB_3_2f.png)
 
-##Conclusion
+## Conclusion
 From what has been observed during limited investigation, it seems that clustering could help to detect anomalous sounds of faulty machines. However, there are a lot of overlaps between the clusters and more investigation with other algorithms. 
 
 ## Further Development
-  * The audio features used for clustering are mfccs, same features used in supervised learning. An incomplete attempt was done to include other features to investigate the effects of using different features. Hopefully this will be implemented in the feature.
-  * Performance is evaluated only visualy. Performance metrics should be implemented
+  * The audio features used for clustering are mfccs, same features used in supervised learning. An incomplete attempt was done to include other features.
+  * Performance of the clustering part is evaluated only visually. Performance metrics should be implemented.
