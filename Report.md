@@ -13,12 +13,13 @@ This project is a part of the Becode.org AI Bootcamp programme. The goal is to i
 ## Explorative data analysis
 Acoustic data samples for 4 machine elements are given. Audio samples are recorded at three different signal to noise ratios (-6dB, 0dB, 6dB). Initial analysis is based on 6dB. This is because there is less noise in the data as compared to the other recordings. In addition, there are 4 models per each machine element. Moreover, it has been noticed that the data for abnormal sounds is undersampled.
 
-
 ![Normal and abnormal fan sound signals](pics/signals.png) 
+
 
 ## Feature Extraction
 The features used to train the ML model are Mel Frequency Cepstral Coefficents (MFCCs). They are features that combine the time-domain and frequency domain features of the sound wave. The MFCC uses the MEL scale to divide the frequency band to sub-bands and then extracts the Cepstral Coefficents using Discrete Cosine Transform (DCT). MEL scale is based on the way humans distinguish between frequencies which makes it very convenient to process sounds.
-
+![FFT](pics/fft_normal_fan.png)
+![Melspectrogram](pics/MelSpectrogram.png)
 
 ## 1. Supervised Learning (Classification)
 The AI model was trained with 70% of the data, 15% of data used for testing, and 15% for validation. Different classifier algorithms were explored. Using RandomForestClassifier, F1-score of 0.98 was achieved.
