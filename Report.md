@@ -4,11 +4,12 @@
 
 ## Description
 
-This project is a part of the Becode.org AI Bootcamp programme. The goal is to investigate the implementation of Machine Learning anomalous to detect anomalous sound detection in industrial machines for a fictional company Acme Corporation. The training data can be consulted [here](https://github.com/mokegg/machine-monitoring-conditions). The has two parts:
+This project is a part of the Becode.org AI Bootcamp programme. The goal is to investigate the implementation of Machine Learning anomalous to detect anomalous sound detection in industrial machines for a fictional company Acme Corporation.
+Data samples of normal and abnormal sounds of for kinds of machines, valves, pumps, fans and sliders are downloaded from [Machine Condition Monitoring](https://zenodo.org/record/3384388#.YbIcwZHMJH5). The project has two parts:
 
- 1. To develop a model based on a supervised learning (classification)
+ 1. Classification: To develop a model based on a supervised learning
     This part was workedout by a team of Mekonnen G. Gebrehiwot and Katarzyna Pranke (AI Diagnostics).
- 2. To develop a model based on a unsupervised learning (clustering)
+ 2. Clustering: To develop a model based on a unsupervised learning
 
 ## Explorative data analysis
 Acoustic data samples for 4 machine elements are given. Audio samples are recorded at three different signal to noise ratios (-6dB, 0dB, 6dB). Initial analysis is based on 6dB. This is because there is less noise in the data as compared to the other recordings. In addition, there are 4 models per each machine element. Moreover, it has been noticed that the data for abnormal sounds is undersampled.
@@ -18,13 +19,16 @@ Acoustic data samples for 4 machine elements are given. Audio samples are record
 
 ## Feature Extraction
 The features used to train the ML model are Mel Frequency Cepstral Coefficents (MFCCs). They are features that combine the time-domain and frequency domain features of the sound wave. The MFCC uses the MEL scale to divide the frequency band to sub-bands and then extracts the Cepstral Coefficents using Discrete Cosine Transform (DCT). MEL scale is based on the way humans distinguish between frequencies which makes it very convenient to process sounds.
+
 ![FFT](pics/fft_normal_fan.png)
 ![Melspectrogram](pics/MelSpectrogram.png)
 
 ## 1. Supervised Learning (Classification)
-The AI model was trained with 70% of the data, 15% of data used for testing, and 15% for validation. Different classifier algorithms were explored. Using RandomForestClassifier, F1-score of 0.98 was achieved.
-
+The AI model was trained with 70% of the data, 15% of data used for testing, and 15% for validation. Different classifier algorithms were explored. Using RandomForestClassifier, weighted average F1-score of 0.96 was achieved.
 ![Roc curve](pics/roc_curve.png)
+<img src="pics/report.png" width="420" height="250">
+
+
 
 
 
@@ -38,10 +42,6 @@ The AI model was trained with 70% of the data, 15% of data used for testing, and
 
 ## Description
 This is a second part of the `Machine conditions monitoring` learning project at Becode.org AI Bootcamp programme. The goal of this particular project is to investigate the possible use of unsupervised learning based on clustering for anomalous sound detection of faulty industrial machinery for a fictional company Acme Corporation. The first project dealt with classification of labeled data and can be consulted [here](https://github.com/mokegg/machine-monitoring-conditions).
-
-Data samples of normal and abnormal sounds of for kinds of machines, valves, pumps, fans and sliders are downloaded from [Machine Condition Monitoring](https://zenodo.org/record/3384388#.YbIcwZHMJH5).
-
-Duration of the project: 2 weeks
 
 ## Learning Objectives
 
