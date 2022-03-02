@@ -16,9 +16,8 @@ This part was workedout by a team of Mekonnen G. Gebrehiwot and Katarzyna Pranke
 ## Explorative data analysis
 Acoustic data samples for 4 machine elements are given. Audio samples are recorded at three different signal to noise ratios (-6dB, 0dB, 6dB). Initial analysis is based on 6dB. This is because there is less noise in the data as compared to the other recordings. In addition, there are 4 models per each machine element. Moreover, it has been noticed that the data for abnormal sounds is undersampled.
 
-abnormal signal |  normal signal
-:-------------------------:|:-------------------------:
-![](pics/Abnormal Signal.png) |  ![](pics/Normal Signal.png)
+
+[Abnormal](pics/Abnormal Signal.png) 
 
 ## Feature Extraction
 
